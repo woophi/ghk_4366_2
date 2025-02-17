@@ -248,6 +248,7 @@ export const App = () => {
                 window.gtag('event', '4371_back_var2');
                 setError(false);
               }}
+              disabled={loading}
             >
               Вернуться к выбору
             </ButtonMobile>
@@ -259,6 +260,7 @@ export const App = () => {
                 window.gtag('event', '4371_not_interested_var2');
                 submitFinish();
               }}
+              disabled={loading}
             >
               Мне это не интересно
             </ButtonMobile>
