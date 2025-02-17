@@ -236,7 +236,7 @@ export const App = () => {
           <SystemMessageMobile.Title>Вы ничего не выбрали</SystemMessageMobile.Title>
 
           <SystemMessageMobile.Subtitle>
-            Вы можете выбрать любые полезные для вас инструменты управления финансами. Это бесплатно.
+            Вы можете выбрать любые локации, которые хотели бы видеть на карте. Это бесплатно.
           </SystemMessageMobile.Subtitle>
 
           <SystemMessageMobile.Controls>
