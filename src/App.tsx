@@ -48,7 +48,7 @@ export const App = () => {
       standup: Number(checkedItems['Стендап']) as 1 | 0,
       master_classes: Number(checkedItems['Мастер-классы']) as 1 | 0,
     }).then(() => {
-      // LS.setItem(LSKeys.ShowThx, true);
+      LS.setItem(LSKeys.ShowThx, true);
       setThx(true);
       setLoading(false);
     });
