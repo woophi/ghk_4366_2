@@ -54,7 +54,7 @@ export const App = () => {
     });
   };
   const submit = () => {
-    window.gtag('event', '4371_continue_click_var1');
+    window.gtag('event', '4371_continue_click_var2');
 
     if (Object.values(checkedItems).every(item => !item)) {
       setError(true);
